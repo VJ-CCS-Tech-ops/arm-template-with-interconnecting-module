@@ -1,0 +1,37 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "name": {
+            "value": "usedevubcadf01"
+        },
+        "version": {
+            "value": "V2"
+        },
+        "location": {
+            "value": "eastus2"
+        },
+        "vNetEnabled": {
+            "value": false
+        },
+        "publicNetworkAccess": {
+            "value": true
+        },
+        "gitConfigureLater": {
+            "value": true
+        },
+        "tagsByResource": {
+            "value": {
+                "Microsoft.DataFactory/factories": {
+                    "env": "dev"
+                }
+            }
+        },
+        "userAssignedIdentitiesStr": {
+            "value": "{\"type\": \"SystemAssigned,UserAssigned\", \"userAssignedIdentities\": {\"\": {}}}"
+        },
+        "enableCMK": {
+            "value": false
+        }
+    }
+}

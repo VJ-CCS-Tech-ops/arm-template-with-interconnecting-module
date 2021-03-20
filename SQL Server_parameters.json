@@ -1,0 +1,35 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "allowAzureIps": {
+            "value": true
+        },
+        "administratorLogin": {
+            "value": "ubcadmin"
+        },
+        "administratorLoginPassword": {
+            "value": "Mswift123"
+        },
+        "enableADS": {
+            "value": false
+        },
+        "location": {
+            "value": "southcentralus"
+        },
+        "serverName": {
+            "value": "usedevubcsql01"
+        },
+        "enableVA": {
+            "value": false
+        },
+        "useVAManagedIdentity": {
+            "value": false
+        },
+        "serverTags": {
+            "value": {
+                "env": "dev"
+            }
+        }
+    }
+}

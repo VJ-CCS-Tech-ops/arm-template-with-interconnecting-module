@@ -1,0 +1,16 @@
+SEP=,
+NAME,TYPE,LOCATION,
+"azureresourcegroup11diag","Storage account","East US 2"
+"usedevubcadf01","Data factory (V2)","East US 2"
+"usedevubcadl01","Data Lake Storage Gen1","East US 2"
+"usedevubcakv01","Key vault","East US 2"
+"usedevubcdb01 (usedevubcsql01/usedevubcdb01)","SQL database","South Central US"
+"usedevubclog01","Log Analytics workspace","East US 2"
+"usedevubcsql01","SQL server","South Central US"
+"usedevubcstg01","Storage account","East US 2"
+"usedevubcvm01","Virtual machine","East US 2"
+"usedevubcvm01-ip","Public IP address","East US 2"
+"usedevubcvm01-nsg","Network security group","East US 2"
+"usedevubcvm01761","Network interface","East US 2"
+"usedevubcvm01_OsDisk_1_3cfa8cd3c74f4c75a57b1e4b755d0c8f","Disk","East US 2"
+"usedevubcvnet01","Virtual network","East US 2"
